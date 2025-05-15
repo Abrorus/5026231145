@@ -1,0 +1,16 @@
+body {
+    margin-left: 150px;
+    margin-right: 150px;
+    background-image: linear-gradient(rgb(178, 255, 114), rgb(156, 156, 80));
+    color: rgb(1, 54, 1);
+}
+p{
+    text-align: justify;
+}
+.roundedimage {
+    border-radius: 50px ;
+}
+.formatheader {
+    font-size: larger;
+    font-weight: bold;
+}
