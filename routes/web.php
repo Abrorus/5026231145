@@ -6,6 +6,7 @@ use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\MouseDBController;
+use App\Http\Controllers\KaryawanDBController;
 // import java.io; (sama kayak use)
 
 // System.out.println("Hello World");
@@ -102,3 +103,9 @@ Route::get('/mouse/edit/{id}', [MouseDBController::class,'editmouse']);
 Route::post('/mouse/update',[MouseDBController::class,'update']);
 Route::get('/mouse/hapus/{id}',[MouseDBController::class,'hapus']);
 Route::get('/mouse/cari',[MouseDBController::class,'cari']);
+
+Route::get('/karyawan', [KaryawanDBController::class,'indexkaryawan']);
+Route::get('/karyawan/tambahkaryawan', [KaryawanDBController::class,'tambahkaryawan']);
+Route::post('/karyawan/store', [KaryawanDBController::class,'store']);
+Route::get('/karyawan/hapus/{id}',[KaryawanDBController::class,'hapus']);
+Route::get('/karyawan/cari',[KaryawanDBController::class,'cari']);
