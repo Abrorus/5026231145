@@ -145,7 +145,7 @@
                         <a class="nav-link" href="#"><i class="fas fa-book mr-2"></i>EAS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-calculator mr-2"></i>Latihan 1</a>
+                        <a class="nav-link" href="/pagecounter"><i class="fas fa-calculator mr-2"></i>Latihan 1</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/karyawan"><i class="fas fa-pencil-alt mr-2"></i>Latihan 2</a>
