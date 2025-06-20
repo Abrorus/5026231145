@@ -142,7 +142,7 @@
                         <a class="nav-link" href="/mouse"><i class="fas fa-mouse-pointer mr-2"></i>Tugas CRUD</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-book mr-2"></i>EAS</a>
+                        <a class="nav-link" href="/eas"><i class="fas fa-book mr-2"></i>EAS</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/pagecounter"><i class="fas fa-calculator mr-2"></i>Latihan 1</a>

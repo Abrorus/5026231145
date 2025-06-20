@@ -8,6 +8,8 @@ use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\MouseDBController;
 use App\Http\Controllers\KaryawanDBController;
 use App\Http\Controllers\PageCounterDBController;
+use App\Http\Controllers\NilaiDBController;
+
 // import java.io; (sama kayak use)
 
 // System.out.println("Hello World");
@@ -112,3 +114,8 @@ Route::get('/karyawan/hapus/{id}',[KaryawanDBController::class,'hapus']);
 Route::get('/karyawan/cari',[KaryawanDBController::class,'cari']);
 
 Route::get('/pagecounter', [PageCounterDBController::class,'index_page']);
+
+Route::get('/eas', [NilaiDBController::class,'indexnilai']);
+Route::get('/eas/tambahdatanilai', [NilaiDBController::class,'tambahdatanilai']);
+Route::post('/eas/store', [NilaiDBController::class,'store']);
+

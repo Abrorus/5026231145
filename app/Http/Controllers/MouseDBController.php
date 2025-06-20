@@ -92,3 +92,25 @@ public function cari(Request $request)
 	}
 
 }
+//Belajar UAS PWEB
+// yang harus diubah ketika masuk ke laravel ini untuk uas
+// - buat database sesuai soal yang diminta di dbeaver (dummy)
+// - buat controller sesuai namanya yang di soal
+// - masukkan controller ke web.php dan juga route nya
+// - buat file index sesuai nama yang tekah ditentukan di soal
+// - tambahkan/ edit di bagian template.blade php untuk mengintegrasikan semua
+// - buat fitur yang dimau disesuaikan saja, bisa edit, hapus, cari atau tambah
+// - untuk edit dan tambah kita bikin file nya baru
+// -  untuk hapus cari kita cukup inisiasikan di index dan controller.
+// - gunakan laravel tutor malas ngoding untuk lebih lanjut.
+
+// - contoh bikin tabel baru di dbeaver
+// CREATE TABLE mouse (
+   // mouse_ID INT AUTO_INCREMENT PRIMARY KEY,
+    //merkmouse VARCHAR(25) NOT NULL,
+    //hargamouse INT NOT NULL,
+    //tersedia BOOLEAN NOT NULL,
+    //berat FLOAT
+//);
+//INSERT INTO mouse (merkmouse, hargamouse, tersedia, berat) VALUES
+// ('Logitech G Pro X', 1200000, TRUE, 0.063),
